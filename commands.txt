@@ -1,2 +1,0 @@
-"git config"
-"git init -this command is udes to start a new repository"
