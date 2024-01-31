@@ -1,0 +1,357 @@
+let x=x+y
+let z=x-y
+let z=x*y
+let z=x%y
+let x+=y
+let x-=y
+let x**=y
+let x%=y
+ function hoisting
+
+constant keyword
+
+The keyword const is a little misleading.
+
+It does not define a constant value. It defines a constant reference to a value.
+
+Because of this you can NOT:
+
+Reassign a constant value
+Reassign a constant array
+Reassign a constant object
+But you CAN:
+
+Change the elements of constant array
+Change the properties of constant object
+
+arr.unshift is used to insert the element at the start of the array
+arr.unshift(4);  arr.splice(4); we can use both commands
+
+function addelement(arr) {
+arr.unshift('a');
+
+console.log(arr);
+}
+const array =['a', 'b', 'c'];
+addElement(array);
+
+const fruits = ["banana", "orange", "Apple", "Mango"];
+document.getelementbyid("demp").innerhtml = fruits.tostring();
+ const cars = ["abc","volvo","bwm"];
+document.getelementbyid("demo").innerhtml = cars;
+
+const fruits = ["banana", "orange", "apple", "mango"];
+let length = fruits.length;
+let fruit = fruits[0];
+let fruit = fruits[fruits.length - 1];
+fruits.foreach(myfunction);
+text += "</ul>";
+
+let text = "<ul>";
+for (let i=0; i < flen; i++){
+text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+
+const fruits = ["abc","grt","ihf"];
+fruits.push("lemon");
+fruits[fruits.length] = "lemon";
+ 
+const person =  [];
+person[0] = "john";
+person[1] = "doe";
+person[1] = 46;
+person.length;
+person[0];
+
+const points = new array();
+const points = [];
+
+const points = new array(40,100,1,5,25,10);
+const points = [40, 100, 1, 5, 25, 10];
+
+const points = new array(40, 100 ,1);
+
+conts points = new array(40, 100);
+
+const fruits = ["banana", "orange", "apple"];
+ fruits instanceof array;
+
+array methods:
+array length
+array tostring()
+array at()
+array join()
+array pop()
+array push()
+array shift()
+array unshift()
+array upshift()
+array delet()
+array concat()
+array copywithin()
+array flat()
+array splice()
+array tospliced()
+array slice()
+document.getelementbyid("demo").innerhtml = fruits.join(" * ");
+  date and date get and set methods
+const d = new date();
+const d = new date("2022-03-25");
+
+new date()
+new date(date string)
+new date(year,month)
+new date(year,month,day)
+new date(year,month,day,hours)
+new date(year,month,day,hours,minutes)
+new date(year,month,day,hours,minutes,seconds)
+new date(year,month,day,hours,minutes,seconds,ms)
+new date(milliseconds)
+
+const d = new date();
+const d = new date("october 13, 2014 11:13:00");
+const d = new date("2022-03-25");
+conts d = new date(2018, 11, 24, 10, 33, 30, 0);
+ const d = new date(99, 11, 24);
+const d = new date();
+const d = new date();
+d.tostring();
+const d = new date();
+d.todatestring();
+const d = new date();
+d.toUTCstring();
+const d = new date();
+d.toISOString();
+ const d = new date("2015-03");
+const d = new date("2015");
+const d = new date("2015-03-25t12:00:00z");
+const d = new date("2015-03-25t12:00:00-06:30");
+const d = new date("03/25/2015");
+const d = new date("25-03-2015");
+const d = new date("25 march 2015");
+const d = new date("january 25 2015");
+let msec = date.parse("march 21 2012");
+let msec = date.parse("march 21,2012");
+const d = new date(msec);
+
+const date =  new date();
+getfullyear()
+getmonth()
+getdate()
+getday()
+gethours()
+getminutes()
+getseconds()
+getmilliseconds()
+gettime()
+
+conts d = new date("2021-03-25");
+d.getfullyear();
+const d = new date();
+d.getfullyear();
+const d = new date("2021-03-25");
+d.getmonth();
+const d = new date();
+d.getmonth();
+
+
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+const d = new date();
+let month = months[d,getmonth()];
+
+const d = new date("2021-03-25");
+d.getdate();
+ const d = new date();
+d.getdate();
+const d = new date("2021-03-25");
+d.gethours();
+conts d = new date();
+d.getminutes();
+d.getseconds();
+d.getmilliseconds();
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+const d = new Date("2021-03-25");
+let day = days[d.getDay()];
+const d = new date("1970-01-01")
+d.gettime();
+let ms = date.now();
+const minute = 1000 * 60;
+const hour = minute * 60;
+const day = hour * 24;
+const year = day * 365;
+let years = math.round(date.now() / year);
+ 
+getUTCdATE()
+getutctime()
+getutcmonth()
+getutcday()
+getutcfullyear()
+getutchours()
+getutcminutes()
+getutcmilliseconds()
+
+setdate()
+settime()
+setminutes()
+setmilliseconds()
+setseconds()
+setyear()
+sethours()
+setmonth()
+
+const d = new date();
+d.setfullyear(2020);
+
+const d = new date();
+d.setfullyear(2020,11,3);
+
+const d = new date();
+d.setMonth(11);
+
+const d = new Date();
+d.setDate(15);
+
+cont d = new Date();
+d.setDate(d.getdate() + 50);
+
+const d = new Date();
+d.setHours(22);
+
+const d = new Date();
+d.setMinutes(30);
+
+const d = new Date();
+d.getSeconds(30);
+ let text = "";
+const today = new Date();
+const someday = new Date();
+someday.setfullyear(2100, 0 , 14);
+if (someday > today) {
+text = "today is before january 14, 2100.";
+} else {
+text = "today is before january 14, 2100.";
+}
+
+
+math.method(number)
+math.round(x)
+math.ceil(x)
+math.floor(x)
+math.trunc(x)
+
+math.round(4.6);
+math.round(4.6);
+
+
+math.ceil(4.9);
+math.ceil(4.7);
+math.ceil(4.4);
+math.ceil(4.2);
+math.ceil(-4.2);
+
+math.floor(4.9);
+math.floor(4.7);
+math.floor(4.4);
+math.floor(4.2);
+math.floor(-4.2);
+
+math.trunc(4.9);
+math.trunc(4.7);
+math.trunc(4.4);
+math.trunc(4.2);
+math.trunc(-4.2);
+
+math.sign(-4);
+math.sign(0);
+math.sign(4);
+
+math.pow(8, 2);
+math.sqrt(x);
+math.abs(x);
+math.sin(X);
+math.cos(x);
+math.min() and math.max();
+math.random();
+math.log();
+math.log2();
+math.log10();
+
+abs(x)
+acos(x)
+acosh(x)
+asin(x)
+asinh(x)
+atan(x)
+atan2(x)
+atanh(x)
+cbrt(x)
+ceil(x)
+cos(x)
+cosh(x)
+exp(x)
+floor(x)
+log(x)
+max(x,y,z,...,n)
+min(x,y,z,....,n)
+pow(x,y)
+random()
+round(x)
+sign(x)
+sin(x)
+sinh(x)
+sqrt(x)
+tan(x)
+tanh(x)
+trunc(x)
+
+math.random();
+math.floor();
+math.floor(math.random() * 10);
+math.floor(math.random() * 11);
+math.floor(math.random() * 100);
+math.floor(math.random() * 101);
+math.floor(math.random() *10) + 1;
+math.floor(math.random() * 100) + 1;
+
+function getrndinteger(min, max){
+return math.floor(math.random() * (max - min)) + min;
+}
+
+function getrnd integer(min, max) {
+return math.floor(math.random() * (max - min + 1) ) + min;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
