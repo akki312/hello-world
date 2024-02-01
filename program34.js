@@ -1,0 +1,14 @@
+const timeInMilliseconds = Date.now();
+console.log(timeInMilliseconds);
+const time = new Date;
+const date = time.getDate();
+console.log(date);
+const year = time.getFullYear();
+console.log(year);
+const utcDate = time.getUTCDate();
+console.log(utcDate);
+const event = new Date('feb 19, 2020 23:15:30');
+Event.setDate(15);
+console.log(Event.getDate());
+Event.setDate(35);
+console.log(Event.getDate());
