@@ -10,3 +10,7 @@ function printPattern(rows, cols) {
 
 
 printPattern(3, 4);
+output:
+a&a&a&a&
+a&a&a&a&
+a&a&a&a&
