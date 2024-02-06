@@ -14,3 +14,29 @@ step 7:we have to type the command git add .
 step 8: we have to type the command  git commit -m "filename"
 step 9: now we have to type the command git push so that it will save to 
 git hub 
+the file will be saved  in git repository
+
+Q5:git reflog and git log
+D:\assessment>git reflog
+1b6fdc0 (HEAD -> samplebranch, akki312/samplebranch, master) HEAD@{0}: checkout: moving from master to samplebranch
+1b6fdc0 (HEAD -> samplebranch, akki312/samplebranch, master) HEAD@{1}: rebase (finish): returning to refs/heads/master
+1b6fdc0 (HEAD -> samplebranch, akki312/samplebranch, master) HEAD@{2}: rebase (start): checkout samplebranch 
+6853a77 (akshith--59, akshith--23) HEAD@{3}: checkout: moving from samplebranch to master
+1b6fdc0 (HEAD -> samplebranch, akki312/samplebranch, master) HEAD@{4}: commit: readme.md
+6853a77 (akshith--59, akshith--23) HEAD@{5}: checkout: moving from akshith--59 to samplebranch
+6853a77 (akshith--59, akshith--23) HEAD@{6}: checkout: moving from akshith--23 to akshith--59
+6853a77 (akshith--59, akshith--23) HEAD@{7}: checkout: moving from master to akshith--23
+6853a77 (akshith--59, akshith--23) HEAD@{8}: commit (initial): assessment.txt
+
+D:\assessment>git log
+commit 1b6fdc01dd29feed64dd5afa61fe51829b94cffd (HEAD -> samplebranch, akki312/samplebranch, master)
+Author: akki312 <akshithsistla@gmail.com>
+Date:   Tue Feb 6 12:23:44 2024 +0530
+
+    readme.md
+
+commit 6853a7793553830e10a0e2dd6438fed6308077ba (akshith--59, akshith--23)
+Author: akki312 <akshithsistla@gmail.com>
+Date:   Tue Feb 6 12:05:37 2024 +0530
+
+    assessment.txt
