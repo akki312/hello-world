@@ -9,3 +9,9 @@ for (i = 1;i <= n; i++){
 string +="\n";
 }
     console.log(string);
+output:
+1
+12
+123
+1234
+12345
