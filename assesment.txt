@@ -27,6 +27,8 @@ D:\assessment>git reflog
 6853a77 (akshith--59, akshith--23) HEAD@{6}: checkout: moving from akshith--23 to akshith--59
 6853a77 (akshith--59, akshith--23) HEAD@{7}: checkout: moving from master to akshith--23
 6853a77 (akshith--59, akshith--23) HEAD@{8}: commit (initial): assessment.txt
+git reflog means it shows the what are the commits done and what are the psuh and pull operations done in the repository or 
+the git branch we have taken
 
 D:\assessment>git log
 commit 1b6fdc01dd29feed64dd5afa61fe51829b94cffd (HEAD -> samplebranch, akki312/samplebranch, master)
@@ -40,4 +42,42 @@ Author: akki312 <akshithsistla@gmail.com>
 Date:   Tue Feb 6 12:05:37 2024 +0530
 
     assessment.txt
-    q3
+    git log means it shows all the operations done on a project file and when the file has been last accessed
+    and when the last commit has been given
+    
+q3:
+
+D:\assessment>git stash save
+Saved working directory and index state WIP on samplebranch: aa8a22c assessment.txt
+
+D:\assessment>git stash pop
+On branch samplebranch
+Your branch is up to date with 'akki312/samplebranch'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   assesment.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Dropped refs/stash@{0} (7df655fbcbcf75323e64ef6f6128884940595243)
+
+D:\assessment>git stash drop
+No stash entries found.
+
+q4:
+
+D:\assessment>git pull https://github.com/akki312/hello-world.git samplebranch
+From https://github.com/akki312/hello-world
+ * branch            samplebranch -> FETCH_HEAD
+Updating 1b6fdc0..fde793d
+Fast-forward
+ assesment.txt | 29 ++++++++++++++++++++++++++++-
+ 1 file changed, 28 insertions(+), 1 deletion(-)
+
+D:\assessment>git rebase
+There is no tracking information for the current branch.
+Please specify which branch you want to rebase against.
+See git-rebase(1) for details.
+D:\assessment>git rebase samplebranch
+Current branch master is up to date.
