@@ -1,6 +1,6 @@
-//*q1//
-let n= 5;
-let string = " ";
+//*q2//
+let n= 4;
+let string =" ";
 let count = 1;
 for (i = 1;i <= n; i++){
     
