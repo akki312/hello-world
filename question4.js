@@ -10,3 +10,9 @@ function printPattern() {
 }
 
 printPattern();
+
+output:
+********
+******
+****
+*
