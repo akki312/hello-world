@@ -11,3 +11,8 @@ for (i = 1;i <= n; i++){
 string +="\n";
 }
     console.log(string);
+output:
+ 1
+23
+456
+78910
