@@ -8,3 +8,10 @@ function printBox(width, height) {
    console.log(border);
 }
 printBox(20, 5);
+
+output:
+********************
+*                  *
+*                  *
+*                  *
+********************
