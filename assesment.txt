@@ -1,0 +1,16 @@
+q1: 
+b:write the steps how you pushed your code to git hub
+step1: take a sample code
+step2: create a new project file and save the file as example1.js
+step 3:after complete the code and  save the code
+step 4:after we have to intiate the git hub by type the git command
+"git config --global user.name "username"
+"git config --global email.adress "email adress"
+step 5: we have to initiate the repository and check whether the repository is created or not
+in the git hub
+step 6:after we have to open the terminal and we have to type git status so that 
+it shows the status of current file
+step 7:we have to type the command git add .
+step 8: we have to type the command  git commit -m "filename"
+step 9: now we have to type the command git push so that it will save to 
+git hub 
