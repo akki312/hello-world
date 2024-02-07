@@ -8,6 +8,7 @@ const result = string1.toUpperCase() === string2.toUpperCase();
 
 if(result) {
     console.log('The strings are similar.');
-} else {
+} 
+else {
     console.log('The strings are not similar.');
 }
