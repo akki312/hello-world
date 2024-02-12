@@ -6,4 +6,4 @@ let countValue = new Promise(function (resolve, reject){
         reject("there is no value");
         }
 });
-console.log(countValue);
+console.log(countValue);    
