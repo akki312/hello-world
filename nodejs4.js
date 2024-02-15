@@ -1,6 +1,6 @@
 const http = require('http');
 const options = {
-    hostname: 'www.google.com',
+    hostname: 'www.example.com',
     port: 80,
     path: '/',
     method: 'get'
