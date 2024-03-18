@@ -8,6 +8,6 @@ const server = http.createServer((req, res) => {
 
 const port = process.env.port || 2080;
 server.listen(port, () => {
-    console.log(`server running at http://localhost:${port}/`);
+    console.log(`server running at http://localhost:${8080}/`);
 
 });
